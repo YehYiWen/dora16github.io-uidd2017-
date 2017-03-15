@@ -4,7 +4,7 @@
 body{width:auto;}
 
 
-.section2{;background-image: url("banner_1.png") ; background-size: 100% ;height: 500px;opacity: 0.9; background-repeat: no-repeat;}
+.section2{;background-image: url(banner_1.png) ; background-size: 100% ;height: 500px;opacity: 0.9; background-repeat: no-repeat;}
 .bar {height: 65px;
   display: -webkit-flex;
   display: flex;
@@ -34,7 +34,7 @@ td {
 }
 .line{color: #0e304e;font-size: 14px}
 .Description{ color: #636363;font-size: 12px;font-weight:normal;}
-.section4{background-image: url("fintech-london.png");background-size: 100%; background-repeat: no-repeat;height:500px}
+.section4{background-image: url(fintech-london.png);background-size: 100%; background-repeat: no-repeat;height:500px}
 h3{font-size: 20px;color: #ffffff;text-align: center;padding-top:5%;font-family: Helvetica}
 .form1{margin: auto;width:40%}
 input[type=text], select {color:rgba(0, 0, 0, 0.38);
@@ -47,6 +47,44 @@ input[type=text], select {color:rgba(0, 0, 0, 0.38);
     box-sizing: border-box;
 }
 input[type=submit] {
+    width: 100%;height:50px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.section5{ background-color: #0070bd;width: 100%;margin-top:-3%;height: 300px;
+}
+.company{ float:left;font-family: Helvetica;
+    width:100px;
+    height: 220px;
+  margin-left: 7%;}
+.ourpartners{  float:left;font-family: Helvetica;
+    margin:0 auto;
+    width:200px;
+    height: 220px;
+    ;margin-left: 13%;}
+.connect{  float:left;font-family: Helvetica
+    width:100px;
+    height: 220px;
+    margin-left: 13%;}
+.fgt{  float:left;
+        width:200px;
+        height: 220px;
+        margin-left: 13%;padding-top:70px}
+.backtotop{float:right;padding-top:10%;}
+.company .ourpartners .connect .fgt {float:clear}
+h4{padding-top: 50px;color: white;font-size: 14px;padding-left: 10px;font-family: Helvetica}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {color: white;font-size: 12px; text-decoration: none;}
+
     width: 100%;height:50px;
     background-color: #4CAF50;
     color: white;
