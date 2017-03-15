@@ -4,7 +4,7 @@
 body{width:auto;}
 
 
-.section2{;background-image: url("images/banner_1.png") ; background-size: 100% ;height: 500px;opacity: 0.9; background-repeat: no-repeat;}
+.section2{;background-image: url("banner_1.png") ; background-size: 100% ;height: 500px;opacity: 0.9; background-repeat: no-repeat;}
 .bar {height: 65px;
   display: -webkit-flex;
   display: flex;
@@ -34,7 +34,7 @@ td {
 }
 .line{color: #0e304e;font-size: 14px}
 .Description{ color: #636363;font-size: 12px;font-weight:normal;}
-.section4{background-image: url("images/fintech-london.png");background-size: 100%; background-repeat: no-repeat;height:500px}
+.section4{background-image: url("fintech-london.png");background-size: 100%; background-repeat: no-repeat;height:500px}
 h3{font-size: 20px;color: #ffffff;text-align: center;padding-top:5%;font-family: Helvetica}
 .form1{margin: auto;width:40%}
 input[type=text], select {color:rgba(0, 0, 0, 0.38);
